@@ -1,0 +1,91 @@
+VueScan 9 x64 (9.7.95.07) Feb  4 2023 UTC-3 en 1 1 Windows 11 x64 build 22621 2 cpus
+Unregistered
+    0 Begin startup
+    0 Calling mdns_open
+    0 mDNS   0 AF_INET 192.168.1.242
+    3 Calling prob_open
+    3 prob: Calling stil_open
+    3 stil: Sti   device: AUTO
+    3 stil:         name: HP Deskjet 2540 series (NET)
+    3 stil: Try   device: \\.\Scanner0
+    3 [genesys] sane_init_impl: start
+    3 [genesys]   sane_init_impl: authorize == null
+    3 [genesys]   Genesys Logic backend: test Genesys no GL124 offset cal
+    3 [genesys] sane_init_impl: completed
+    3 prob: Searching for still image devices
+    3 prob: Getting mDNS devices
+    3 prob: Adding still image networked devices
+    3 prob: Listing devices being used
+    3 Calling scan_open
+    3 Calling pie1_open
+    3 Calling can1_open
+    3 Calling hps1_open
+    3 Calling ptk1_open
+    3 Calling wia1_open
+    3 wia1: Found device: port "AUTO" name "HP Deskjet 2540 series (NET)" type 00010002
+    3 Calling vid1_open
+    3 vidc: Found Integrated Camera
+    4 vidc: Disab Integrated Camera wid 640 hei 480
+    4 Calling net1_open
+    4 Calling usbi_open
+    4 Calling dot4_open
+    4 Calling scsi_init
+    4 Calling SetupLists
+    4 Calling SetupControls
+    6 Display depth 32
+    6 Internet connection on
+    6 Loading options
+    8 Changed Prefs  | Window x offset      -1                     0
+    8 Changed Prefs  | Window y offset      -1                     0
+    8 Changed Prefs  | Window x size        640                    1600
+    8 Changed Prefs  | Window y size        480                    852
+    8 Changed Color  | Color balance        7 (White balance)      2 (Neutral)
+    8 Calling SetupTop
+    9 Calling SetupCrp
+    9 Startup complete
+    9 ---------------------- Current source/mode settings ----------------------
+    9 Source driver                        : disk
+    9 Source make                          : Generic
+    9 Source name                          : Flatbed
+    9 Mode name  0                         : Flatbed
+    9 Mode name  1                         : Transparency
+    9 Mode name  2                         : Doc Feeder
+    9 Scanner mode                         : Flatbed
+    9 Capabilities                         : 04000020
+    9     file source                      : 00000020
+    9     subframe capable                 : 04000000
+    9 Maximum positive exposure            : 0
+    9 Maximum negative exposure            : 0
+    9 Number of frames                     : 0
+    9 Ready to scan                        : 0
+    9 Device bits per sample               : 8
+    9 Device samples per pixel             : 3
+    9 Device width                         : 2550
+    9 Device height                        : 3300
+    9 Device dpi                           : 300
+    9 Resolution 1                         : 300
+    9 Resolution 2                         : 150
+    9 Resolution 3                         : 100
+    9 Resolution 4                         : 75
+    9 Resolution 5                         : 60
+    9 Resolution 6                         : 50
+    9 Resolution 7                         : 43
+    9 Resolution 8                         : 37
+    9 --------------------------------------------------------------------------
+    9 License Status - Invalid
+   10 **** Menu Help | Update
+   10 **** Menu Help | About
+   17 **** Menu File | Quit
+   17 Calling scan_clos
+   17 [genesys] sane_exit_impl: start
+   17 [genesys] sane_exit_impl: completed
+   17 Calling scsi_term
+   17 Calling usbi_clos
+   17 Calling wia1_clos
+   17 Calling ptk1_clos
+   17 Calling hps1_clos
+   17 Calling can1_clos
+   17 Calling pie1_clos
+   17 Exiting scsi_clos
+   17 Calling prob_clos
+   17 Calling mdns_clos
